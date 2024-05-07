@@ -17,9 +17,9 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 6, // How many projects to display.
+        limit: 4, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Ludum Dare 55 compo entry. A game where you play as a summoner who can summon heroes from other worlds to fight against the evil forces.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://static.jam.host/content/6bd/a5/z/610b8.png.320x256.fit.jpg',
           link: 'https://ldjam.com/events/ludum-dare/55/gatewatch',
         },
         {
@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'Ludum Dare 54 jam entry. Play as a wizard working in a warehouse, sorting crates using his gravity magic.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://static.jam.host/content/6bd/a5/z/5e4d5.png.320x256.fit.jpg',
           link: 'https://ldjam.com/events/ludum-dare/54/crate-arcanum',
         },
       ],
