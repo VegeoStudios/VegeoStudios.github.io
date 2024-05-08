@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/VegeoStudios/VegeoStudios.github.io/raw/main/TechResume2024v2.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/VegeoStudios/VegeoStudios.github.io/raw/main/Resume-Erik-Cooper.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C#',
