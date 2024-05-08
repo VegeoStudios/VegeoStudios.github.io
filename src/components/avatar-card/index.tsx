@@ -66,7 +66,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               skeleton({ widthCls: 'w-48', heightCls: 'h-8' })
             ) : (
               <span className="text-base-content opacity-70">
-                {profile.name}
+                Erik Cooper
               </span>
             )}
           </h5>
