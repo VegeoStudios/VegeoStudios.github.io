@@ -110,6 +110,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Roast Coffee Shop',
+      position: 'Barista',
+      from: 'June 2024',
+      to: 'October 2024',
+      companyLink: 'https://roastcoffeeshop.co/',
+    },
+    {
       company: 'Lory Student Services',
       position: 'Barista',
       from: 'August 2023',
