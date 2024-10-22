@@ -33,6 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'CREATURE BOX',
+          description:
+            'Ludum Dare 56 compo entry. In Creature Box, you take control of a mystical simulation where the fate of tiny, magical creatures called Transmutites is in your hands.',
+          imageUrl:
+            'https://static.jam.host/raw/909/d5/z/660ac.png',
+          link: 'https://ldjam.com/events/ludum-dare/56/creature-box',
+        },
+        {
           title: 'GATEWATCH',
           description:
             'Ludum Dare 55 compo entry. A game where you play as a summoner who can summon heroes from other worlds to fight against the evil forces.',
