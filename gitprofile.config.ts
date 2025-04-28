@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 6, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['VegeoStudios/CS345-Project'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -33,9 +33,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'PROJECT PLANETFALL: THE EXODUS DIRECTIVE',
+          description:
+            'Ludum Dare 57 jam entry. Take control of a large modular drill mining to the core of the Earth. Collect resources, upgrade components, save humanity!',
+          imageUrl:
+            'https://static.jam.host/raw/6bd/a5/z/6bce5.png',
+          link: 'https://ldjam.com/events/ludum-dare/57/project-planetfall-the-exodus-directive',
+        },
+        {
           title: 'CREATURE BOX',
           description:
-            'Ludum Dare 56 compo entry. In Creature Box, you take control of a mystical simulation where the fate of tiny, magical creatures called Transmutites is in your hands.',
+            'Ludum Dare 56 jam entry. In Creature Box, you take control of a mystical simulation where the fate of tiny, magical creatures called Transmutites is in your hands.',
           imageUrl:
             'https://static.jam.host/raw/909/d5/z/660ac.png',
           link: 'https://ldjam.com/events/ludum-dare/56/creature-box',
